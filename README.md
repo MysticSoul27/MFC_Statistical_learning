@@ -24,13 +24,7 @@ Each topic is presented with a definition, the relevant formula, and a key point
 - `main(2).tex` — LaTeX source
 - `MFC_Assignment_mod_3.pdf` — Compiled slides
 
-# Module 2: Linear Algebra — Exam Reference Notes
-
-LaTeX Beamer slide deck covering **Module 2** of the Mathematics for Computing
-syllabus (MTech CSE, CUSAT). Built as concise, exam-ready reference notes —
-each topic gives a formal definition, a worked example, a plain-language
-analogy, and a boxed-free key takeaway, with diagrams added wherever a picture
-aids understanding.
+**Module 2: Linear Algebra
 
 ## Topics Covered
 - Algebraic Structures (Groups, Rings, Fields)
