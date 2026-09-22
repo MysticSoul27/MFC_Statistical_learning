@@ -1,0 +1,395 @@
+\documentclass{beamer}
+\usetheme{Boadilla}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{enumitem}
+
+% Tighten vertical spacing
+\setlist[itemize]{topsep=2pt, itemsep=2pt, parsep=0pt, partopsep=0pt, label=\usebeamertemplate{itemize item}}
+\addtobeamertemplate{frametitle}{}{\vspace{-3mm}}
+\setlength{\parskip}{2pt}
+
+\title{Mathematics for Computing}
+\subtitle{Assignment}
+\author{Aleena Mary John}
+\institute{Cochin University of Science and Technology (CUSAT)}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+% ============================================================
+\section{Definition of Statistics}
+\begin{frame}{Definition of Statistics}
+\textbf{Definition:}\\[0.5mm]
+\textbf{Statistics} is the branch of mathematics concerned with collecting, organizing, analyzing, interpreting, and presenting data in order to draw meaningful conclusions and support decision-making.
+\vspace{1.5mm}
+\begin{itemize}
+    \item It helps convert raw data into useful information.
+    \item Broadly divided into two types:
+    \begin{itemize}
+        \item \textbf{Descriptive Statistics} -- summarizing and describing data.
+        \item \textbf{Inferential Statistics} -- drawing conclusions/predictions from data.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+% ============================================================
+\section{Statistical Departments}
+
+\begin{frame}{Department of Statistics -- Kerala}
+\textbf{Functions and Activities:}
+\begin{itemize}
+    \item \textbf{Agricultural Censuses:} Tracks crop yields, land usage, and cultivation costs.
+    \item \textbf{Economic Estimations:} Calculates GSDP, industrial growth, and inflation indices.
+    \item \textbf{Vital Statistics:} Registers births, deaths, and demographic trends.
+    \item \textbf{Socioeconomic Surveys:} Evaluates employment and living standards.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Department of Statistics -- India}
+\textbf{Functions and Activities:}
+\begin{itemize}
+    \item \textbf{Macroeconomic Data:} Computes national GDP, inflation indices, and industrial production.
+    \item \textbf{National Surveys:} Measures employment, consumption, and household socio-economic metrics.
+    \item \textbf{Demographic Tracking:} Conducts the national census and registers vital statistics.
+    \item \textbf{Coordination:} Aligns statistical standards across ministries.
+\end{itemize}
+\end{frame}
+
+% ============================================================
+\section{Data, Information, Knowledge, Intelligence}
+
+\begin{frame}{Data, Information, Knowledge, Intelligence}
+\textbf{Data:}\\[0.5mm]
+Raw, unprocessed facts or figures with no context.\\
+\textit{Example:} \texttt{28, 30, 32} (just numbers)
+
+\vspace{1.5mm}
+\textbf{Information:}\\[0.5mm]
+Data that has been processed/organized to give it meaning.\\
+\textit{Example:} ``Temperature today is 32\textdegree C''
+
+\vspace{1.5mm}
+\textbf{Knowledge:}\\[0.5mm]
+Understanding gained by connecting information with experience.\\
+\textit{Example:} Knowing that 32\textdegree C feels hot and one should drink more water.
+
+\vspace{1.5mm}
+\textbf{Intelligence:}\\[0.5mm]
+The ability to apply knowledge to make decisions or solve new problems.\\
+\textit{Example:} Deciding to reschedule an outdoor event because of the heat.
+\vspace{1.5mm}
+\end{frame}
+
+% ============================================================
+\section{Artificial Intelligence}
+\begin{frame}{Definition of Artificial Intelligence (AI)}
+\textbf{Definition:}\\[0.5mm]
+\textbf{Artificial Intelligence (AI)} is the branch of computer science that enables machines to simulate human intelligence -- such as learning, reasoning, and problem-solving -- to perform tasks and make decisions.
+\vspace{1.5mm}
+\textit{Example:} A recommendation system that suggests movies based on past viewing behavior.
+\end{frame}
+
+% ============================================================
+\section{Types of Data}
+
+\begin{frame}{Types of Data: Univariate, Bivariate, Multivariate}
+\textbf{Univariate Data:}\\[0.5mm]
+Data involving \textbf{a single variable}; describes one characteristic at a time, no relationships studied.
+\textit{Example:} Marks of 5 students: $\{45, 67, 78, 89, 90\}$
+
+\vspace{2mm}
+\textbf{Bivariate Data:}\\[0.5mm]
+Data involving \textbf{two variables}, studied together to find a relationship between them.
+\textit{Example:} Height \& Weight: $(150,45),\ (160,55),\ (170,65)$
+
+\vspace{2mm}
+\textbf{Multivariate Data:}\\[0.5mm]
+Data involving \textbf{more than two variables}, analyzed together.
+\textit{Example:} (Age, Height, Weight, Marks) $= (20,170,65,88)$
+\end{frame}
+
+% ============================================================
+\section{Representation of Data}
+\begin{frame}{How to Represent Data}
+\textbf{Definition:}\\[0.5mm]
+Data representation refers to the methods used to organize and display data so it can be understood and analyzed easily.
+
+\vspace{1.5mm}
+\textbf{Common methods:}
+\begin{itemize}
+    \item \textbf{Tables} -- rows and columns of values.
+    \item \textbf{Bar Graph} -- comparing categories.
+    \item \textbf{Histogram} -- frequency distribution of continuous data.
+    \item \textbf{Pie Chart} -- proportion of a whole.
+    \item \textbf{Line Graph} -- trend over time.
+\end{itemize}
+\textit{Example:} Marks $\{45,67,78,89,90\}$ can be shown as a bar graph with student names on the x-axis and marks on the y-axis.
+\end{frame}
+
+% ============================================================
+\section{Measures of Central Tendency}
+
+\begin{frame}{Measures of Central Tendency}
+\textbf{Definition:}\\[0.5mm]
+A single value that represents the \textbf{center} or typical value of a dataset.
+
+\vspace{2mm}
+\textbf{Mean:} Arithmetic average of all values.
+\[
+\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}
+\]
+\textit{Example:} Data $2,4,6,8$ $\Rightarrow$ $\bar{x} = \frac{2+4+6+8}{4} = 5$
+
+\vspace{2mm}
+\textbf{Median:} Middle value of a dataset arranged in ascending order.
+\textit{Example:} $2,4,6,8,10 \Rightarrow$ Median $=6$. For even count, $2,4,6,8 \Rightarrow \frac{4+6}{2}=5$
+
+\vspace{2mm}
+\textbf{Mode:} Value that occurs \textbf{most frequently}.
+\textit{Example:} $2,4,4,6,8 \Rightarrow$ Mode $=4$
+\end{frame}
+
+% ============================================================
+\section{Measures of Dispersion}
+
+\begin{frame}{Measures of Dispersion}
+\textbf{Definition:}\\[0.5mm]
+Describes \textbf{how spread out} the data values are from the central value (mean).
+
+\vspace{2mm}
+\textbf{Range:} $\text{Range} = x_{\max} - x_{\min}$ \quad
+\textit{Example:} $2,4,6,8 \Rightarrow 8-2=6$
+
+\vspace{2mm}
+\textbf{Variance:} Average of the squared deviations from the mean.
+\[
+\sigma^2 = \frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n}
+\]
+\textit{Example:} Data $2,4,6,8$, $\bar{x}=5 \Rightarrow \sigma^2 = \frac{9+1+1+9}{4}=5$
+
+\vspace{2mm}
+\textbf{Standard Deviation:} Square root of variance; same units as the data.
+\[
+\sigma = \sqrt{\sigma^2}
+\]
+\textit{Example:} $\sigma^2=5 \Rightarrow \sigma = \sqrt{5} \approx 2.24$
+\end{frame}
+
+% ============================================================
+\section{Module 3: Descriptive \& Frequentist Statistics}
+
+\begin{frame}{Overview}
+\textbf{Descriptive Statistics:}\\[0.5mm]
+The branch of statistics that summarizes and visualizes data using quantities (mean, variance, histograms, etc.) computed directly from the data, without any probabilistic assumptions.
+
+\vspace{2mm}
+\textbf{Frequentist Statistics:}\\[0.5mm]
+An approach that models the data as random realizations from an unknown but \textbf{fixed} distribution, allowing us to analyze estimators and quantify their accuracy.
+
+\vspace{2mm}
+\textbf{Topics -- Descriptive:} Histogram, Sample mean \& variance, Order statistics, Sample covariance, Sample covariance matrix.\\
+\textbf{Topics -- Frequentist:} IID sampling, Mean square error, Consistency, Confidence intervals, Parametric \& Non-parametric model estimation.
+\end{frame}
+
+% ---------------- Histogram ----------------
+\begin{frame}{Histogram}
+\textbf{Definition:}\\[0.5mm]
+A \textbf{histogram} is obtained by binning the range of one-dimensional data and counting the number of data points that fall in each bin. It is a piecewise-constant approximation of the underlying pmf/pdf.
+
+\vspace{1.5mm}
+\textbf{Key Point:}\\[0.5mm]
+Histograms visualize the \textbf{shape/spread} of one-dimensional data; bin width controls resolution.
+\vspace{1.5mm}
+\end{frame}
+
+% ---------------- Sample mean and variance ----------------
+\begin{frame}{Sample Mean}
+\textbf{Definition \& Formula:}\\[0.5mm]
+For data $\{x_1,\dots,x_n\}$, the sample mean is
+\[
+\text{av}(x_1,\dots,x_n) := \frac{1}{n}\sum_{i=1}^{n} x_i
+\]
+For $d$-dimensional vectors $\{\vec{x}_1,\dots,\vec{x}_n\}$:
+\[
+\text{av}(\vec{x}_1,\dots,\vec{x}_n) := \frac{1}{n}\sum_{i=1}^{n} \vec{x}_i
+\]
+
+\vspace{1.5mm}
+\textbf{Key Point:}\\[0.5mm]
+Sample mean = \textbf{center of mass} of the data. \textbf{Centering} = subtracting the mean from every point so the new mean is $0$.
+\vspace{1.5mm}
+\end{frame}
+
+\begin{frame}{Sample Variance \& Standard Deviation}
+\textbf{Definition \& Formula:}\\[0.5mm]
+\[
+\text{var}(x_1,\dots,x_n) := \frac{1}{n-1}\sum_{i=1}^{n}\big(x_i - \text{av}(x_1,\dots,x_n)\big)^2
+\]
+\[
+\text{std}(x_1,\dots,x_n) := \sqrt{\text{var}(x_1,\dots,x_n)}
+\]
+
+\vspace{1.5mm}
+\textbf{Key Point:}\\[0.5mm]
+Measures \textbf{average spread} around the mean. Divides by $(n-1)$, not $n$, so that the sample variance is an \textbf{unbiased} estimator of the true variance.
+\vspace{1.5mm}
+\end{frame}
+
+% ---------------- Order statistics ----------------
+\begin{frame}{Order Statistics: Quantiles \& Percentiles}
+\textbf{Definition \& Formula:}\\[0.5mm]
+Let $x_{(1)}\le x_{(2)} \le \dots \le x_{(n)}$ be the sorted data. The $q$-quantile ($0<q<1$) is
+\[
+x_{([q(n+1)])}
+\]
+The $100p$ quantile is called the $p$-th percentile. \\
+$0.25$ quantile = 1st quartile, $0.5$ quantile = \textbf{median}, $0.75$ quantile = 3rd quartile. \\
+\textbf{IQR} $=$ (3rd quartile) $-$ (1st quartile).
+
+\vspace{1.5mm}
+\textbf{Key Point:}\\[0.5mm]
+Order statistics (median, IQR, box plots) describe a data set \textbf{more robustly} than mean/std when extreme values (outliers) are present.
+\vspace{1.5mm}
+\end{frame}
+
+% ---------------- Sample covariance ----------------
+\begin{frame}{Sample Covariance}
+\textbf{Definition \& Formula:}\\[0.5mm]
+For paired data $\{(x_1,y_1),\dots,(x_n,y_n)\}$:
+\[
+\text{cov}\big((x_1,y_1),\dots,(x_n,y_n)\big) := \frac{1}{n-1}\sum_{i=1}^{n} \big(x_i-\text{av}(x)\big)\big(y_i-\text{av}(y)\big)
+\]
+\textbf{Correlation coefficient:}
+\[
+\rho = \frac{\text{cov}(x,y)}{\text{std}(x)\,\text{std}(y)}, \qquad -1\le \rho \le 1
+\]
+
+\vspace{1.5mm}
+\textbf{Key Point:}\\[0.5mm]
+Covariance shows whether two features increase/decrease \textbf{together}. Correlation is the \textbf{scale-free} (unit-free) version, always between $-1$ and $1$.
+\vspace{1.5mm}
+\end{frame}
+
+% ---------------- Sample covariance matrix ----------------
+\begin{frame}{Sample Covariance Matrix}
+\textbf{Definition \& Formula:}\\[0.5mm]
+For $d$-dimensional data $\{\vec{x}_1,\dots,\vec{x}_n\}$:
+\[
+\Sigma(\vec{x}_1,\dots,\vec{x}_n) := \frac{1}{n-1}\sum_{i=1}^{n} \big(\vec{x}_i - \text{av}\big)\big(\vec{x}_i - \text{av}\big)^T
+\]
+Diagonal entries $=$ variances; off-diagonal entries $=$ covariances between feature pairs.
+
+\vspace{1.5mm}
+\textbf{Key Point:}\\[0.5mm]
+Eigenvectors of $\Sigma$ give the directions of \textbf{maximum variation} of the data -- this is the basis of \textbf{Principal Component Analysis (PCA)}.
+\vspace{1.5mm}
+\end{frame}
+
+% ---------------- IID sampling ----------------
+\begin{frame}{IID Sampling}
+\textbf{Definition:}\\[0.5mm]
+Data $x_1, x_2, \dots, x_n$ are \textbf{independent and identically distributed (iid)} if each point is drawn independently from the \textbf{same} underlying distribution. Sampling \textbf{with replacement} from a population produces iid data.
+
+\vspace{1.5mm}
+\textbf{Key Point:}\\[0.5mm]
+The iid assumption lets us treat data as realizations of random variables so probability theory can be applied to statistics.
+\vspace{1.5mm}
+\end{frame}
+
+% ---------------- Mean square error ----------------
+\begin{frame}{Mean Square Error (MSE)}
+\textbf{Definition \& Formula:}\\[0.5mm]
+For an estimator $Y$ approximating true value $\gamma \in \mathbb{R}$:
+\[
+\text{MSE}(Y) := E\big((Y-\gamma)^2\big)
+\]
+\textbf{Bias--Variance decomposition:}
+\[
+\text{MSE}(Y) = \underbrace{E\big((Y-E(Y))^2\big)}_{\text{variance}} + \underbrace{(E(Y)-\gamma)^2}_{\text{bias}}
+\]
+An estimator is \textbf{unbiased} if $E(Y) = \gamma$.
+
+\vspace{1.5mm}
+\textbf{Key Point:}\\[0.5mm]
+MSE measures overall estimator error $=$ variance $+$ bias$^2$. Sample mean and sample variance are unbiased estimators.
+\vspace{1.5mm}
+\end{frame}
+
+% ---------------- Consistency ----------------
+\begin{frame}{Consistency}
+\textbf{Definition:}\\[0.5mm]
+An estimator $\tilde{Y}^{(n)}$ is \textbf{consistent} if it converges to the true value $\gamma$ as $n \to \infty$ (in mean square / probability / almost surely).
+\vspace{1.5mm}
+\textit{Example:} The sample mean is a consistent estimator of the true mean (Law of Large Numbers). The sample median is consistent even when the mean is not well defined.
+
+\vspace{1.5mm}
+\textbf{Key Point:}\\[0.5mm]
+Consistency $=$ ``more data $\Rightarrow$ better estimate, converging to the truth.''
+\end{frame}
+
+% ---------------- Confidence intervals ----------------
+\begin{frame}{Confidence Intervals}
+\textbf{Definition \& Formula:}\\[0.5mm]
+A $1-\alpha$ confidence interval $I$ for $\gamma \in \mathbb{R}$ satisfies
+\[
+P(\gamma \in I) \ge 1-\alpha, \qquad 0<\alpha<1
+\]
+For the mean of an iid sequence with variance $\sigma^2 \le b^2$:
+\[
+I_n = \left[\, \bar{Y}_n - \frac{b}{\sqrt{\alpha n}},\ \bar{Y}_n + \frac{b}{\sqrt{\alpha n}} \,\right]
+\]
+
+\vspace{1.5mm}
+\textbf{Key Point:}\\[0.5mm]
+A confidence interval gives a \textbf{range}, not a single number, so we can quantify how sure we are about an estimate using finite data.
+\vspace{1.5mm}
+\end{frame}
+
+% ---------------- Nonparametric estimation ----------------
+\begin{frame}{Non-parametric Model Estimation}
+\textbf{Empirical CDF:}\\[0.5mm]
+\[
+\hat{F}_n(x) := \frac{1}{n}\sum_{i=1}^{n} \mathbb{1}_{x_i \le x}
+\]
+Fraction of samples $\le x$; unbiased and consistent estimator of the true CDF.
+
+\vspace{1.5mm}
+\textbf{Kernel Density Estimator (bandwidth $h$):}\\[0.5mm]
+\[
+\hat{f}_{h,n}(x) := \frac{1}{nh}\sum_{i=1}^{n} k\!\left(\frac{x-x_i}{h}\right)
+\]
+
+\vspace{1.5mm}
+\textbf{Key Point:}\\[0.5mm]
+No assumption about the distribution's family is made -- the shape is estimated \textbf{directly from data}.
+\vspace{1.5mm}
+\end{frame}
+
+% ---------------- Parametric estimation ----------------
+\begin{frame}{Parametric Model Estimation}
+\textbf{Method of Moments:}\\[0.5mm]
+Set sample moments (mean, variance, ...) equal to the theoretical moments of the assumed distribution, then solve for the parameters.
+
+\vspace{1.5mm}
+\textbf{Maximum Likelihood Estimation (MLE):}\\[0.5mm]
+Likelihood function: $L_{x_1,\dots,x_n}(\vec\theta) := p_{\vec\theta}(x_1,\dots,x_n)$ (or pdf $f_{\vec\theta}$ for continuous data). \\
+\[
+\hat{\theta}_{ML} = \arg\max_{\vec\theta} \log L_{x_1,\dots,x_n}(\vec\theta)
+\]
+
+\vspace{1.5mm}
+\textbf{Key Point:}\\[0.5mm]
+Assumes the data comes from a \textbf{known family} of distributions (e.g. Gaussian); the task reduces to estimating its \textbf{parameters} from data.
+\vspace{1.5mm}
+\end{frame}
+
+\end{document}
