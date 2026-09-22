@@ -23,3 +23,35 @@ Each topic is presented with a definition, the relevant formula, and a key point
 **Files:**
 - `main(2).tex` — LaTeX source
 - `MFC_Assignment_mod_3.pdf` — Compiled slides
+
+# Module 2: Linear Algebra — Exam Reference Notes
+
+LaTeX Beamer slide deck covering **Module 2** of the Mathematics for Computing
+syllabus (MTech CSE, CUSAT). Built as concise, exam-ready reference notes —
+each topic gives a formal definition, a worked example, a plain-language
+analogy, and a boxed-free key takeaway, with diagrams added wherever a picture
+aids understanding.
+
+## Topics Covered
+- Algebraic Structures (Groups, Rings, Fields)
+- Vectors & Coordinate Systems
+- Vector Addition & Scalar Multiplication
+- Linear Combinations, Span, and Basis Vectors
+- Matrices as Linear Transformations & Matrix Multiplication as Composition
+- Three-Dimensional Linear Transformations
+- The Determinant
+- Inverse Matrices, Column Space, and Null Space
+- Nonsquare Matrices as Transformations Between Dimensions
+- Dot Product and Duality
+- Hyperplanes
+- Cross Product (and its link to Linear Transformations)
+- Cramer's Rule
+- Change of Basis
+- Eigenvectors and Eigenvalues (with Diagonalization)
+- Vector Spaces and Subspaces
+- Mathematical Spaces (Metric, Normed, Inner Product Spaces)
+
+## Format
+- Built with LaTeX Beamer (Boadilla theme)
+- Diagrams generated with TikZ
+- Compiles to a 32-slide PDF
